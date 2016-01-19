@@ -17,9 +17,9 @@ import android.widget.GridView;
 import android.widget.SimpleAdapter;
 import android.widget.Toast;
 
-public class Brand_All extends Fragment {
+public class Brand_B extends Fragment {
 
-	private String tag = Brand_All.class.toString();
+	private String tag = Brand_B.class.toString();
 
 	private GridView gridView;
 

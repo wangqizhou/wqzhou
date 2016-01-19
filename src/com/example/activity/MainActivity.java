@@ -3,7 +3,7 @@ package com.example.activity;
 import java.util.ArrayList;
 
 import com.example.constellation.R;
-import com.example.fragment.Brand_All;
+import com.example.fragment.Brand_B;
 import com.example.fragment.Brand_B1;
 import com.example.fragment.Brand_B2;
 import com.example.fragment.FragmentAdapter_brand;
@@ -37,11 +37,11 @@ public class MainActivity extends FragmentActivity {
 	private void initData() {
 		arrayFragmentlList = new ArrayList<Fragment>();
 
-		Fragment brand_all = new Brand_All();
+		Fragment brand_b = new Brand_B();
 		Fragment brand_b1 = new Brand_B1();
 		Fragment brand_b2 = new Brand_B2();
 
-		arrayFragmentlList.add(brand_all);
+		arrayFragmentlList.add(brand_b);
 		arrayFragmentlList.add(brand_b1);
 		arrayFragmentlList.add(brand_b2);
 
